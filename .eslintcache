@@ -1,1 +1,113 @@
-[{"/Users/askar/Desktop/react-fundamentals/order-custom-cake/.eslintrc.js":"1","/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/App.js":"2","/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/index.js":"3"},{"size":270,"mtime":1707586471892,"results":"4","hashOfConfig":"5"},{"size":105,"mtime":1707586471894,"results":"6","hashOfConfig":"5"},{"size":254,"mtime":1707586471894,"results":"7","hashOfConfig":"5"},{"filePath":"8","messages":"9","suppressedMessages":"10","errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1xmmr2a",{"filePath":"11","messages":"12","suppressedMessages":"13","errorCount":2,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},{"filePath":"14","messages":"15","suppressedMessages":"16","errorCount":1,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"source":null},"/Users/askar/Desktop/react-fundamentals/order-custom-cake/.eslintrc.js",[],[],"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/App.js",["17","18"],[],"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/index.js",["19"],[],{"ruleId":"20","severity":2,"message":"21","line":4,"column":10,"nodeType":"22","messageId":"23","endLine":4,"endColumn":31},{"ruleId":"24","severity":2,"message":"25","line":4,"column":10,"nodeType":"26","messageId":"27","endLine":4,"endColumn":43},{"ruleId":"24","severity":2,"message":"25","line":8,"column":3,"nodeType":"26","messageId":"27","endLine":10,"endColumn":22},"react/react-in-jsx-scope","'React' must be in scope when using JSX","JSXOpeningElement","notInScope","react/jsx-filename-extension","JSX not allowed in files with extension '.js'","JSXElement","noJSXWithExtension"]
+[
+	{
+		"/Users/askar/Desktop/react-fundamentals/order-custom-cake/.eslintrc.js": "1",
+		"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/App.js": "2",
+		"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/index.js": "3"
+	},
+	{
+		"size": 270,
+		"mtime": 1707586471892,
+		"results": "4",
+		"hashOfConfig": "5"
+	},
+	{
+		"size": 105,
+		"mtime": 1707586471894,
+		"results": "6",
+		"hashOfConfig": "5"
+	},
+	{
+		"size": 254,
+		"mtime": 1707586471894,
+		"results": "7",
+		"hashOfConfig": "5"
+	},
+	{
+		"filePath": "8",
+		"messages": "9",
+		"suppressedMessages": "10",
+		"errorCount": 0,
+		"fatalErrorCount": 0,
+		"warningCount": 0,
+		"fixableErrorCount": 0,
+		"fixableWarningCount": 0
+	},
+	"1xmmr2a",
+	{
+		"filePath": "11",
+		"messages": "12",
+		"suppressedMessages": "13",
+		"errorCount": 2,
+		"fatalErrorCount": 0,
+		"warningCount": 0,
+		"fixableErrorCount": 0,
+		"fixableWarningCount": 0,
+		"source": null
+	},
+	{
+		"filePath": "14",
+		"messages": "15",
+		"suppressedMessages": "16",
+		"errorCount": 1,
+		"fatalErrorCount": 0,
+		"warningCount": 0,
+		"fixableErrorCount": 0,
+		"fixableWarningCount": 0,
+		"source": null
+	},
+	"/Users/askar/Desktop/react-fundamentals/order-custom-cake/.eslintrc.js",
+	[],
+	[],
+	"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/App.js",
+	[
+		"17",
+		"18"
+	],
+	[],
+	"/Users/askar/Desktop/react-fundamentals/order-custom-cake/src/index.js",
+	[
+		"19"
+	],
+	[],
+	{
+		"ruleId": "20",
+		"severity": 2,
+		"message": "21",
+		"line": 4,
+		"column": 10,
+		"nodeType": "22",
+		"messageId": "23",
+		"endLine": 4,
+		"endColumn": 31
+	},
+	{
+		"ruleId": "24",
+		"severity": 2,
+		"message": "25",
+		"line": 4,
+		"column": 10,
+		"nodeType": "26",
+		"messageId": "27",
+		"endLine": 4,
+		"endColumn": 43
+	},
+	{
+		"ruleId": "24",
+		"severity": 2,
+		"message": "25",
+		"line": 8,
+		"column": 3,
+		"nodeType": "26",
+		"messageId": "27",
+		"endLine": 10,
+		"endColumn": 22
+	},
+	"react/react-in-jsx-scope",
+	"'React' must be in scope when using JSX",
+	"JSXOpeningElement",
+	"notInScope",
+	"react/jsx-filename-extension",
+	"JSX not allowed in files with extension '.js'",
+	"JSXElement",
+	"noJSXWithExtension"
+]
