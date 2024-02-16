@@ -5,9 +5,9 @@
 /.pnp
 .pnp.js
 package-lock.json
-.eslintcache
 eslintcache
 /.eslintcache
+/src/firebase/index.js
 
 # testing
 /coverage
