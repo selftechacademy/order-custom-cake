@@ -1,0 +1,13 @@
+{
+	"description": {
+		"part1": "Редактируйте <1>src/App.js</1> и сохраните, чтобы перезагрузить.",
+		"part2": "Изучите React"
+	},
+	"form": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Submit"
+	}
+}
