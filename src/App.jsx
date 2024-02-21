@@ -1,6 +1,9 @@
 import React, { Suspense } from "react";
 import { useTranslation, Trans } from "react-i18next";
+import { Routes, Route } from "react-router-dom";
 import LanguageSwitcher from "./components/languageSwitcher/LanguageSwitcher";
+import ProtectedRoute from "./components/protectedRoute/ProtectedRoute";
+import { HomePage, OrderPage, DashboardPage } from "./pages";
 
 import "./App.css";
 
@@ -29,6 +32,14 @@ function App() {
 					{t("description.part2")}
 				</a>
 			</header>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				<Route path="/ordercake" element={<ProtectedRoute />}>
+					<Route path="/ordercake" element={<OrderPage />} />
+				</Route>
+				<Route path="/dashboard" element={<DashboardPage />} />
+				<Route />
+			</Routes>
 		</div>
 	);
 }
