@@ -5,7 +5,7 @@ import LanguageSwitcher from "./components/languageSwitcher/LanguageSwitcher";
 import ProtectedRoute from "./components/protectedRoute/ProtectedRoute";
 import { HomePage, OrderPage, DashboardPage } from "./pages";
 
-import "./App.css";
+import "./App.scss";
 
 // const lngs = {
 // 	en: { nativeName: "English" },
