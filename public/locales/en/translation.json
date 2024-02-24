@@ -4,10 +4,16 @@
 		"part2": "Learn React"
 	},
 	"form": {
+		"signin": "Sign In",
+		"signup": "Sign Up",
 		"firstName": "First Name",
 		"lastName": "Last Name",
-		"email": "Email",
+		"email": "Email Address",
 		"password": "Password",
-		"submit": "Submit"
-	}
+		"submit": "Submit",
+		"rememberMe": "Remember Me",
+		"forgotPassword": "Forgot Password?",
+		"dontHaveAccount": "Don't have an account? Sign Up"
+	},
+	"copyright": "Copyright"
 }

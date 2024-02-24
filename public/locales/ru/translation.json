@@ -4,10 +4,16 @@
 		"part2": "Изучите React"
 	},
 	"form": {
-		"firstName": "First Name",
-		"lastName": "Last Name",
-		"email": "Email",
-		"password": "Password",
-		"submit": "Submit"
-	}
+		"signin": "Bойти",
+		"signup": "зарегистрироваться",
+		"firstName": "имя",
+		"lastName": "Фамилия",
+		"email": "электронная почта",
+		"password": "пароль",
+		"submit": "зарегистрироваться",
+		"rememberMe": "запомнить меня",
+		"forgotPassword": "Забыли пароль?",
+		"dontHaveAccount": "У вас нет учетной записи? Зарегистрироваться"
+	},
+	"copyright": "Авторское право"
 }
