@@ -10,5 +10,10 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+	"hero": {
+		"title": "Fırınımıza Hoş Geldiniz",
+		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
+		"orderNow": "Sipariş"
+	},	
 	"copyright": "Tüm hakları saklıdır."
 }

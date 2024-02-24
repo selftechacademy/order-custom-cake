@@ -15,5 +15,10 @@
 		"forgotPassword": "Forgot Password?",
 		"dontHaveAccount": "Don't have an account? Sign Up"
 	},
+	"hero":{
+		"title": "Welcome to Our Bakery",
+		"subTitle": "Where Every Cake Tells a Story...",
+		"orderNow": "Order now"
+	},
 	"copyright": "Copyright"
 }
