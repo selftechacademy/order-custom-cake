@@ -3,15 +3,15 @@ import { useTranslation, Trans } from "react-i18next";
 import { Routes, Route } from "react-router-dom";
 import LanguageSwitcher from "./components/languageSwitcher/LanguageSwitcher";
 import ProtectedRoute from "./components/protectedRoute/ProtectedRoute";
-import { HomePage, OrderPage, DashboardPage } from "./pages";
+import {
+	HomePage,
+	OrderPage,
+	DashboardPage,
+	LoginPage,
+	SignupPage,
+} from "./pages";
 
 import "./App.scss";
-
-// const lngs = {
-// 	en: { nativeName: "English" },
-// 	ru: { nativeName: "Russian" },
-// 	tr: { nativeName: "Turkish" },
-// };
 
 function App() {
 	const { t } = useTranslation();
@@ -34,10 +34,16 @@ function App() {
 			</header>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
+				<Route path="/login" element={<LoginPage />} />
+				<Route path="/signup" element={<SignupPage />} />
+
+				{/* PROTECTED ROUTES */}
 				<Route path="/ordercake" element={<ProtectedRoute />}>
 					<Route path="/ordercake" element={<OrderPage />} />
 				</Route>
-				<Route path="/dashboard" element={<DashboardPage />} />
+				<Route path="/dashboard" element={<ProtectedRoute />}>
+					<Route path="/dashboard" element={<DashboardPage />} />
+				</Route>
 				<Route />
 			</Routes>
 		</div>
