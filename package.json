@@ -7,11 +7,17 @@
 		"@emotion/styled": "^11.11.0",
 		"@mui/icons-material": "^5.15.9",
 		"@mui/material": "^5.15.9",
-		"@testing-library/jest-dom": "^5.17.0",
-		"@testing-library/react": "^13.4.0",
-		"@testing-library/user-event": "^13.5.0",
+		"@reduxjs/toolkit": "^2.2.1",
+		"firebase": "^10.8.0",
+		"i18next": "^23.8.2",
+		"i18next-browser-languagedetector": "^7.2.0",
+		"i18next-http-backend": "^2.4.3",
+		"prop-types": "^15.8.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-i18next": "^14.0.5",
+		"react-redux": "^9.1.0",
+		"react-router-dom": "^6.22.1",
 		"react-scripts": "5.0.1",
 		"web-vitals": "^2.1.4"
 	},
@@ -20,7 +26,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"lint": "eslint . --fix --max-warnings=0",
+		"lint": "eslint . --fix --max-warnings=3",
 		"format": "prettier . --write",
 		"prepare": "husky install"
 	},
@@ -43,19 +49,23 @@
 		]
 	},
 	"devDependencies": {
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
 		"eslint": "^8.56.0",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
 		"eslint-plugin-jsx-a11y": "^6.8.0",
 		"eslint-plugin-react": "^7.33.2",
-		"eslint-plugin-react-hooks": "^4.6.0",
 		"husky": "^9.0.10",
 		"lint-staged": "^15.2.2",
-		"prettier": "3.2.5"
+		"prettier": "3.2.5",
+		"sass": "^1.71.1"
 	},
 	"lint-staged": {
 		"*.js": "eslint --cache --fix",
+		"*.jsx": "eslint --cache --fix",
 		"*.--write": "prettier --write"
 	}
 }

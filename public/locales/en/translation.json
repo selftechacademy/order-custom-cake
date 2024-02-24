@@ -1,0 +1,13 @@
+{
+	"description": {
+		"part1": "Edit <1>src/App.js</1> and save to reloadsss.",
+		"part2": "Learn React"
+	},
+	"form": {
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"password": "Password",
+		"submit": "Submit"
+	}
+}
