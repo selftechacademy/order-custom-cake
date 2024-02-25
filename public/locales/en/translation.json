@@ -15,5 +15,21 @@
 		"forgotPassword": "Forgot Password?",
 		"dontHaveAccount": "Don't have an account? Sign Up"
 	},
+	"iconWithText": {
+		"everydayCooking": "Everyday Cooking",
+		"quality": "Quality",
+		"customCakes": "Custom Cakes",
+		"freshIngredients": "Fresh Ingredients",
+		"fastDelivery": "Fast Delivery",
+		"attentionToDetail": "Attention to Detail"
+	},
+	"iconWithDescription": {
+		"everydayCooking": "Our team prepares food every day, ensuring the freshness and quality of the ingredients in every dish.",
+		"quality": "We are committed to the highest quality products and services, ensuring only the finest ingredients in every dish we prepare.",
+		"customCakes": "Our skilled bakers are available to create custom cakes to suit your wishes, creating unique and delicious desserts for any occasion.",
+		"freshIngredients": "We pride ourselves on using only fresh, quality ingredients in our baked goods, ensuring not only great taste, but also high nutritional standards for our customers.",
+		"fastDelivery": "We ensure fast delivery of fresh baked goods right to your doorstep, allowing you to enjoy our delicacies without any hassle.",
+		"attentionToDetail": "We pay special attention to detail in the preparation of our dishes, ensuring not only excellent taste, but also an attractive appearance of each product."
+	},
 	"copyright": "Copyright"
 }
