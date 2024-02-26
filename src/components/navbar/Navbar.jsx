@@ -9,9 +9,9 @@ import {
 import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
-import "./customNavbar.style.scss";
+import "./navbar.style.scss";
 
-const CustomNavbar = () => {
+const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const { t } = useTranslation();
 	const navList = [
@@ -20,6 +20,7 @@ const CustomNavbar = () => {
 		"navbar.contact",
 		"navbar.login",
 	];
+
 	const logoUrl =
 		"https://static1.squarespace.com/static/628c084d9a279d20d02dbc3e/t/64d11479b2457609bc9389fc/1691423865572/TheBakehouseChicago-Logo2-Color.png?format=1500w";
 
@@ -76,4 +77,4 @@ const CustomNavbar = () => {
 	);
 };
 
-export default CustomNavbar;
+export default Navbar;
