@@ -1,5 +1,10 @@
 import React from "react";
+import CustomNavbar from "../../components/customNavbar/CustomNavbar";
 
 export default function HomePage() {
-	return <div>HomePage</div>;
+	return (
+		<div>
+			<CustomNavbar />
+		</div>
+	);
 }

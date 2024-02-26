@@ -10,5 +10,12 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+	"navbar": {
+		"home": "Ana Sayfa",
+		"about": "Hakkında",
+		"contact": "İletişim",
+		"login": "Giriş Yap",
+		"logout": "Çıkış Yap"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }

@@ -15,5 +15,12 @@
 		"forgotPassword": "Forgot Password?",
 		"dontHaveAccount": "Don't have an account? Sign Up"
 	},
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"login": "Login",
+		"logout": "Logout"
+	},
 	"copyright": "Copyright"
 }
