@@ -10,5 +10,18 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+
+
+	
+		"order-works": {
+		  "howWorks": "Nasıl çalışır?",
+		  "take-order": "Siparişinizi Alıyoruz",
+		  "choose-cake": "Pastanızı Seçin veya kişiselleştirin",
+		  "bake": "Pastanızı Yapıyoruz",
+		  "bake-text": "Pastanızı Taze Pişiriyoruz",
+		  "delivery": "Teslimat veya Teslim Alma",
+		  "delivery-text": "Pastalarınızı Teslim Ediyoruz",
+		  "custom-cake":"Özel kek"
+	  },
 	"copyright": "Tüm hakları saklıdır."
 }
