@@ -109,7 +109,7 @@ export default function SignUpPage() {
 						<Grid item>
 							<RouterLink to="/login">
 								<Link href="#" variant="body2">
-									{t("Already have an account? Sign in")}
+									{t("form.account")}
 								</Link>
 							</RouterLink>
 						</Grid>

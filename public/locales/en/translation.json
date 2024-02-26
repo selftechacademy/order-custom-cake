@@ -14,7 +14,8 @@
 		"rememberMe": "Remember Me",
 		"forgotPassword": "Forgot Password?",
 		"dontHaveAccount": "Don't have an account? Sign Up",
-		"update": "I want to receive inspiration, marketing promotions and updates via email."
+		"update": "I want to receive inspiration, marketing promotions and updates via email.",
+		"account": "Already have an account? Sign in"
 	},
 
 	"copyright": "Copyright"
