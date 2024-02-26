@@ -8,42 +8,44 @@ import fresh from "../../components/iconsBakes/assets/fresh.png";
 import time from "../../components/iconsBakes/assets/time.png";
 import check from "../../components/iconsBakes/assets/check.png";
 import chiefIcon from "../../components/iconsBakes/assets/chief.png";
+import quality from "../../components/iconsBakes/assets/quality icon.jpeg";
+import cake2 from "../../components/iconsBakes/assets/customcake.jpeg";
 import "./iconBakes.style.scss";
 
 const icons = [
 	{
 		text: "iconWithText.everydayCooking",
-		icon: chiefIcon,
+		icon: "https://i.pinimg.com/564x/09/cd/70/09cd70a3e4461fd149c4897c5db30c8f.jpg",
 		description: "iconWithDescription.everydayCooking",
 	},
 	{
 		text: "iconWithText.quality",
-		icon: croissant,
+		icon: quality,
 		description: "iconWithDescription.quality",
 	},
 	{
 		text: "iconWithText.customCakes",
-		icon: cake,
+		icon: cake2,
 		description: "iconWithDescription.customCakes",
 	},
 	{
 		text: "iconWithText.freshIngredients",
-		icon: fresh,
+		icon: "https://i.pinimg.com/564x/93/f2/70/93f270dd7b99cbb2803d8bdc72d6a129.jpg",
 		description: "iconWithDescription.freshIngredients",
 	},
 	{
 		text: "iconWithText.fastDelivery",
-		icon: time,
-		description: " iconWithDescription.fastDelivery",
+		icon: "https://i.pinimg.com/564x/7f/d6/9b/7fd69b4c0efe591c5438e8b4439beafa.jpg",
+		description: "iconWithDescription.fastDelivery",
 	},
 	{
 		text: "iconWithText.attentionToDetail",
-		icon: check,
+		icon: "https://i.pinimg.com/474x/df/4e/07/df4e0731f6adba1d6928b5ad101b51b9.jpg",
 		description: "iconWithDescription.attentionToDetail",
 	},
 ];
 
-const IconsBakes = ({ topic, variant, backgroundColor, boxShadow }) => {
+const IconsBakes = ({ variant, backgroundColor, boxShadow }) => {
 	const { t } = useTranslation();
 	return (
 		<div
@@ -59,7 +61,7 @@ const IconsBakes = ({ topic, variant, backgroundColor, boxShadow }) => {
 						"topic-text--style3": variant === "style3",
 					})}
 				>
-					{topic}
+					Why is ChicagoBakes the right choice?
 				</h2>
 			</div>
 			<div

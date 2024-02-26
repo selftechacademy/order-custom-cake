@@ -47,6 +47,9 @@ body {
 	font-size: 40px;
 	margin-bottom: 10px;
 }
+.item-name {
+	font-style: italic;
+}
 
 .description {
 	font-size: 18px;
@@ -152,7 +155,7 @@ body {
 
 @media (max-width: 768px) {
 	/* Mobile version for item 1 (style1) */
-	.icons-container--style1 {
+	.icons-container {
 		display: grid;
 		grid-template-rows: auto;
 		gap: 10px;
@@ -162,29 +165,35 @@ body {
 		justify-content: center;
 	}
 
-	.icons-box--style1 {
+	.icons-box {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		gap: 10px;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 20px;
 		width: 100%;
 	}
-	.icon--style1 {
+	.icon {
 		width: 150px;
 		height: 150px;
 	}
 
-	.icons-item--style1 {
+	.icons-item {
 		padding: 10px;
 		font-size: 30px;
-
+		border-radius: 10%;
 		text-align: center;
 	}
 
-	.item-name--style1 {
+	.item-name {
 		font-size: 1rem;
 	}
+	.topic-text {
+		font-size: 24px;
+		font-style: oblique;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
 
-	.description--style1 {
+	.description {
 		font-size: 14px;
 	}
 
