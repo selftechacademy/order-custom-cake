@@ -8,7 +8,14 @@
 		"lastName": "Soyad",
 		"email": "E-posta",
 		"password": "Parola",
-		"submit": "Gönder"
+		"submit": "Gönder",
+		"signin": "Kayıt Olmak",
+		"signup": "Üye olmak",
+		"rememberMe": "Beni hatırla",
+		"forgotPassword": "Parolanızı mı unuttunuz?",
+		"dontHaveAccount": "Hesabınız yok mu? Üye olmak",
+		"update": "İlham, pazarlama promosyonları ve güncellemeleri e-posta yoluyla almak istiyorum.",
+		"account": "Zaten hesabınız var mı? Oturum aç"
 	},
 	"iconWithText": {
 		"title": "ChicagoBakes neden doğru seçim?",
