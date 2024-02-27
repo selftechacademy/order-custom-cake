@@ -15,10 +15,8 @@
 		"forgotPassword": "Забыли пароль?",
 		"dontHaveAccount": "У вас нет учетной записи? Зарегистрироваться"
 	},
-	"topicText": {
-		"topicText": "Почему ChicagoBakes – правильный выбор?"
-	},
 	"iconWithText": {
+		"title": "Почему ChicagoBakes – правильный выбор?",
 		"everydayCooking": "Ежедневное приготовление блюд",
 		"quality": "Качество",
 		"customCakes": "Индивидуальные торты",
