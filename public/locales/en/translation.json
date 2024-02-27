@@ -17,7 +17,13 @@
 		"update": "I want to receive inspiration, marketing promotions and updates via email.",
 		"account": "Already have an account? Sign in"
 	},
-
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"login": "Login",
+		"logout": "Logout"
+	},
 	"iconWithText": {
 		"everydayCooking": "Everyday Cooking",
 		"quality": "Quality",

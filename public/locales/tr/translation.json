@@ -17,6 +17,13 @@
 		"update": "İlham, pazarlama promosyonları ve güncellemeleri e-posta yoluyla almak istiyorum.",
 		"account": "Zaten hesabınız var mı? Oturum aç"
 	},
+	"navbar": {
+		"home": "Ana Sayfa",
+		"about": "Hakkında",
+		"contact": "İletişim",
+		"login": "Giriş Yap",
+		"logout": "Çıkış Yap"
+	},
 	"iconWithText": {
 		"everydayCooking": "Her Gün Yemek Pişirme",
 		"quality": "Kalite",
