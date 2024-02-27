@@ -26,5 +26,10 @@
 		"fastDelivery": "Taze fırın ürünlerinin hızlı teslimatını, size herhangi bir zorluk olmadan lezzetlerimizin tadını çıkarmanızı sağlıyoruz.",
 		"attentionToDetail": "Yemeklerimizin hazırlanmasında detaya özel bir önem veriyoruz, sadece mükemmel lezzet değil, aynı zamanda her ürünün çekici bir görünümü olmasını sağlıyoruz."
 	},
+	"hero": {
+		"title": "Fırınımıza Hoş Geldiniz",
+		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
+		"orderNow": "Sipariş"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }

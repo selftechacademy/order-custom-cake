@@ -31,5 +31,10 @@
 		"fastDelivery": "We ensure fast delivery of fresh baked goods right to your doorstep, allowing you to enjoy our delicacies without any hassle.",
 		"attentionToDetail": "We pay special attention to detail in the preparation of our dishes, ensuring not only excellent taste, but also an attractive appearance of each product."
 	},
+	"hero": {
+		"title": "Welcome to Our Bakery",
+		"subTitle": "Where Every Cake Tells a Story...",
+		"orderNow": "Order now"
+	},
 	"copyright": "Copyright"
 }
