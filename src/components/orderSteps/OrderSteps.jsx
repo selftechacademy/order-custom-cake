@@ -16,7 +16,7 @@ const OrderSteps = ({
 }) => {
 	const { t } = useTranslation();
 	const translatedText = t(text);
-	const translatedDetail=t(detail);
+	const translatedDetail = t(detail);
 	return (
 		<div>
 			<h1>{header}</h1>
@@ -36,7 +36,7 @@ const OrderSteps = ({
 							{number}
 						</div>
 						<div className="text">
-							<h1>{translatedText}</h1>
+							<h1> {translatedText}</h1>
 							<p>{translatedDetail}</p>
 						</div>
 					</div>
@@ -48,13 +48,13 @@ const OrderSteps = ({
 
 const First = {
 	args: {
-		img: "https://cdn-icons-png.flaticon.com/512/766/766294.png",
+		img: "https://cdn-icons-png.flaticon.com/512/5220/5220625.png",
 		text: "order-works.take-order",
 		detail: "order-works.choose-cake",
 		number: "1",
 		numberStyle: { fontSize: "30px", color: "gray", fontWeight: "bold" },
-		imgWidth: "130px",
-		imgHeight: "130px",
+		imgWidth: "200px",
+		
 	},
 };
 const Second = {
@@ -75,6 +75,7 @@ const Third = {
 		number: 3,
 		numberStyle: { fontSize: "30px", color: "gray", fontWeight: "bold" },
 		imgWidth: "200px",
+	
 	},
 };
 
@@ -84,10 +85,7 @@ const StepsContainer = () => {
 		<div className="step__container">
 			<h1 className="step__container__title">{t("order-works.howWorks")}</h1>
 			<div className="step__container__wrapper">
-				<OrderSteps
-					{...First.args}
-					// {t("order-works.take-order")}
-				/>
+				<OrderSteps {...First.args} />
 
 				<img
 					className="step__container__wrapper__img"
@@ -110,10 +108,12 @@ const StepsContainer = () => {
 				<OrderSteps {...Third.args} />
 			</div>
 			<div>
-				<button className="step__container__button">{t("order-works.custom-cake")}</button>
+				<button className="step__container__button">
+					{t("order-works.custom-cake")}
+				</button>
 			</div>
 		</div>
 	);
 };
-//export default OrderSteps;
+
 export default StepsContainer;
