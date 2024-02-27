@@ -10,6 +10,9 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+	"topicText": {
+		"topicText": "ChicagoBakes neden doğru seçim?"
+	},
 	"iconWithText": {
 		"everydayCooking": "Her Gün Yemek Pişirme",
 		"quality": "Kalite",
