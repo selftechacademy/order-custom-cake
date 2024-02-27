@@ -10,6 +10,13 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+	"navbar": {
+		"home": "Ana Sayfa",
+		"about": "Hakkında",
+		"contact": "İletişim",
+		"login": "Giriş Yap",
+		"logout": "Çıkış Yap"
+	},
 	"iconWithText": {
 		"everydayCooking": "Her Gün Yemek Pişirme",
 		"quality": "Kalite",
