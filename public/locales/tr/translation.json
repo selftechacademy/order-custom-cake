@@ -17,5 +17,26 @@
 		"login": "Giriş Yap",
 		"logout": "Çıkış Yap"
 	},
+	"iconWithText": {
+		"everydayCooking": "Her Gün Yemek Pişirme",
+		"quality": "Kalite",
+		"customCakes": "Özel Pasta",
+		"freshIngredients": "Taze Malzemeler",
+		"fastDelivery": "Hızlı Teslimat",
+		"attentionToDetail": "Detaya Dikkat"
+	},
+	"iconWithDescription": {
+		"everydayCooking": "Ekibimiz her gün yemek hazırlar, her yemeğin içindeki malzemelerin tazelik ve kalitesini sağlar.",
+		"quality": "En yüksek kalitede ürün ve hizmetlere adanmışız, hazırladığımız her yemekte sadece en kaliteli malzemelerin kullanılmasını garanti ediyoruz.",
+		"customCakes": "Deneyimli fırıncılarımız, isteklerinize uygun özel pasta tasarlamak için hazır, herhangi bir etkinlik için benzersiz ve lezzetli tatlılar yaratıyorlar.",
+		"freshIngredients": "Fırın ürünlerimizde sadece taze ve kaliteli malzemeler kullanmaktan gurur duyuyoruz, müşterilerimiz için sadece harika lezzet değil, aynı zamanda yüksek beslenme standartları da sağlıyoruz.",
+		"fastDelivery": "Taze fırın ürünlerinin hızlı teslimatını, size herhangi bir zorluk olmadan lezzetlerimizin tadını çıkarmanızı sağlıyoruz.",
+		"attentionToDetail": "Yemeklerimizin hazırlanmasında detaya özel bir önem veriyoruz, sadece mükemmel lezzet değil, aynı zamanda her ürünün çekici bir görünümü olmasını sağlıyoruz."
+	},
+	"hero": {
+		"title": "Fırınımıza Hoş Geldiniz",
+		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
+		"orderNow": "Sipariş"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }
