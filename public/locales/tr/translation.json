@@ -10,5 +10,9 @@
 		"password": "Parola",
 		"submit": "Gönder"
 	},
+
+	"trendy": {
+		"trendy-cake": "Kek galerisi"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }

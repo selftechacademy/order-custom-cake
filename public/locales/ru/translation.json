@@ -15,5 +15,9 @@
 		"forgotPassword": "Забыли пароль?",
 		"dontHaveAccount": "У вас нет учетной записи? Зарегистрироваться"
 	},
+
+	"trendy": {
+		"trendy-cake": " Галерея "
+	},
 	"copyright": "Авторское право"
 }
