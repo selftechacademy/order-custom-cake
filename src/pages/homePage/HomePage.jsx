@@ -1,11 +1,18 @@
 import React from "react";
-import StepsContainer from "../../components/orderSteps/OrderSteps";
+import Navbar from "../../components/navbar/Navbar";
+import IconsBakes from "../../components/iconsBakes/IconBakes";
+import HeroSection from "../../components/heroSection/HeroSection";
+import imgSrc from "../../assets/images/hero-image.jpg";
 
 export default function HomePage() {
+	const onClickHandler = () => alert("hello");
+
 	return (
 		<div>
-			
-			<StepsContainer />
+			<Navbar />
+			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
+			<IconsBakes />
+			<StepsContainer/>
 		</div>
 	);
 }
