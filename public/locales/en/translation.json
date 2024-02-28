@@ -36,5 +36,28 @@
 		"subTitle": "Where Every Cake Tells a Story...",
 		"orderNow": "Order now"
 	},
-	"copyright": "Copyright"
+
+	"footer": {
+		"location": "Find us",
+		"address": "1114 N Arlington Heights Rd Ste 202, Arlington Heights, IL 60004",
+		"phoneNumber": "Call us",
+		"mail": "Mail us",
+		"communication": "Follow us",
+		"links": "Useful Links",
+		"home": "Home",
+		"services": "Services",
+		"menu": "Menu",
+		"about": "About",
+		"review": "Review",
+		"contact": "Contact us",
+		"action": "What are you waiting for?",
+		"button": "Order now",
+		"copyright": "Copyright &copy; 2024, All Right Reserved",
+		"homeLink": "Home",
+		"terms":"Terms",
+		"privacy":"Privacy",
+		"policy":"Policy",
+		"phone":"Contact"
+
+	}
 }

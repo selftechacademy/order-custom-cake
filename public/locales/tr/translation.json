@@ -31,5 +31,34 @@
 		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
 		"orderNow": "Sipariş"
 	},
-	"copyright": "Tüm hakları saklıdır."
+	"footer": {
+		"getinTouch": "İletişime Geçin!",
+		"label": "E-posta adresi",
+		"communities": "Sosyal Topluluklarımız",
+		"question": "Ne bekliyorsunuz?",
+		"buttonName": "Şimdi Sipariş Ver"
+	},
+
+	"footer": {
+		"location": "Bizi Bulun",
+		"address": "1114 N Arlington Heights Rd Ste 202, Arlington Heights, IL 60004",
+		"phoneNumber": "Aramak İçin",
+		"mail": "Bize Yazın",
+		"communication": "Bizi Takip Edin",
+		"links": "Faydalı Bağlantılar",
+		"home": "Ana Sayfa",
+		"services": "Hizmetler",
+		"menu": "Menü",
+		"about": "Hakkımızda",
+		"review": "İnceleme",
+		"contact": "Bize Ulaşın",
+		"action": "Ne Bekliyorsunuz?",
+		"button": "Şimdi Sipariş Ver",
+		"copyright": "Tüm Hakları Saklıdır 2024",
+		"homeLink": "Ana Sayfa",
+		"terms": "Şartlar",
+		"privacy": "Gizlilik",
+		"policy": "Politika",
+		"phone": "İletişim"
+	}
 }
