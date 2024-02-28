@@ -2,28 +2,68 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import FormControl from "@mui/material/FormControl";
 import MenuItem from "@mui/material/MenuItem";
-import Select from "@mui/material/Select";
+import { IconButton, Menu } from "@mui/material";
+import { LanguageOutlined } from "@mui/icons-material";
 
 function LanguageSwitcher() {
 	const [currentLanguage, setCurrentLanguage] = useState("en");
+	const [anchorEl, setAnchorEl] = useState(null);
 	const { i18n } = useTranslation();
+
+	const handleClick = (event) => {
+		setAnchorEl(event.currentTarget);
+	};
 
 	const changeLanguage = (language) => {
 		i18n.changeLanguage(language);
 		setCurrentLanguage(language);
 	};
 
+	const handleClose = () => {
+		setAnchorEl(null);
+	};
+
 	return (
 		<FormControl>
-			<Select
-				value={currentLanguage}
-				label="Age"
-				onChange={(e) => changeLanguage(e.target.value)}
+			<IconButton onClick={handleClick}>
+				<LanguageOutlined />
+				{currentLanguage}
+			</IconButton>
+			<Menu
+				id="simple-menu"
+				anchorEl={anchorEl}
+				keepMounted
+				open={Boolean(anchorEl)}
+				onClose={handleClose}
 			>
-				<MenuItem value="en">English</MenuItem>
-				<MenuItem value="ru">Русский</MenuItem>
-				<MenuItem value="tr">Türkçe</MenuItem>
-			</Select>
+				<MenuItem
+					onClick={() => {
+						changeLanguage("en");
+						handleClose();
+					}}
+					value="en"
+				>
+					English
+				</MenuItem>
+				<MenuItem
+					onClick={() => {
+						changeLanguage("ru");
+						handleClose();
+					}}
+					value="ru"
+				>
+					Русский
+				</MenuItem>
+				<MenuItem
+					onClick={() => {
+						changeLanguage("tr");
+						handleClose();
+					}}
+					value="tr"
+				>
+					Türkçe
+				</MenuItem>
+			</Menu>
 		</FormControl>
 	);
 }
