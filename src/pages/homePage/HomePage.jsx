@@ -2,6 +2,7 @@ import React from "react";
 import IconsBakes from "../../components/iconsBakes/IconBakes";
 import HeroSection from "../../components/heroSection/HeroSection";
 import imgSrc from "../../assets/images/hero-image.jpg";
+import Testimonials from "../../components/testimonials/Testimonials";
 
 export default function HomePage() {
 	const onClickHandler = () => alert("hello");
@@ -10,6 +11,7 @@ export default function HomePage() {
 		<div>
 			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
 			<IconsBakes />
+			<Testimonials />
 		</div>
 	);
 }
