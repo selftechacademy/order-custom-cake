@@ -14,6 +14,7 @@ export default function HomePage() {
 			<Navbar />
 			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
 			<IconsBakes />
+			<StepsContainer/>
 			<SliderImages />
 		</div>
 	);

@@ -46,8 +46,24 @@
 		"subTitle": "Where Every Cake Tells a Story...",
 		"orderNow": "Order now"
 	},
+		"order-works": {
+		  "howWorks": "How it works?",
+		  "take-order": "We Take your Order",
+		  "choose-cake": "Select or Customize Your Cake",
+		  "bake": "Baking Your Cake",
+		  "bake-text": "We Bake Your Cake Fresh",
+		  "delivery": "Delivery or Pick up",
+		  "delivery-text": "We Deliver Your Cakes",
+		  "custom-cake":"Custom Cake"
+		},
 	"trendy": {
 		"trendy-cake": "Trending Cake Gallery "
 	},
 	"copyright": "Copyright"
 }
+
+
+
+
+
+
