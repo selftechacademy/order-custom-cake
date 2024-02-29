@@ -52,5 +52,26 @@
 	"trendy": {
 		"trendy-cake": "Kek galerisi"
 	},
+	"testimonials": {
+		"name1": "Aida",
+		"title1": "Yazılım Mühendisi",
+		"company1": "Adobe Inc.",
+		"quote1": "Chicago-Bakery, leziz kekleriyle her zaman etkilemeyi başarıyor! Çikolata ve vanilya gibi klasik tatlar ile yenilikçi kreasyonlara kadar, her lokma bir zevktir. Kekleri her zaman taze, nemli ve lezzetli. Herhangi bir durum için Chicago-Bakery'i kesinlikle tavsiye ederim!",
+
+		"name2": "Aigerim",
+		"title2": "React Geliştirici",
+		"company2": "Netflix Inc.",
+		"quote2": "Kızımın doğum günü için Chicago-Bakery'den bir kek sipariş ettim ve büyük bir başarıydı! Tasarım sadece etkileyici değil, lezzet dillere destan. Nemli katlar, kremalı glazür ve mükemmel tat dengesi, herkes için unutulmaz bir deneyim yaşattı. Chicago-Bakery, kutlamamızı ekstra özel kıldığınız için teşekkür ederim!",
+
+		"name3": "Doolot",
+		"title3": "Lowcode Geliştirici",
+		"company3": "Meta Platforms Inc.",
+		"quote3": "Chicago-Bakery, tatlı her şey için gitmek yerim haline geldi! Kekleri sadece dayanılmaz. Basit bir öğleden sonra ikramı veya büyük bir kutlama olsun, kekleri asla hayal kırıklığına uğratmaz. Her dilim bir cennet zevki ve onlardan yeterince alamıyorum. Chicago-Bakery kesinlikle tatlı bir dişi nasıl tatmin edeceğini biliyor!",
+
+		"name4": "Erkinai",
+		"title4": "Frontend Geliştirici",
+		"company4": "Ulta Beauty Inc.",
+		"quote4": "Chicago-Bakery'nin sık müşterisi olarak, onların şehirdeki en iyisi olduklarına güvenle söyleyebilirim! Kekleri her seferinde mükemmellikle pişirilir, detaylara ve kaliteli malzemelere dikkat edilir. Doğum günü, düğün veya sadece tatlı bir istek olsun, Chicago-Bakery her şeyi kapsar. Kek ihtiyaçlarımı kimseye başka birisine emanet etmem!"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }
