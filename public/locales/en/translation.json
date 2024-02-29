@@ -25,6 +25,7 @@
 		"logout": "Logout"
 	},
 	"iconWithText": {
+		"title": "Why is ChicagoBakes the right choice?",
 		"everydayCooking": "Everyday Cooking",
 		"quality": "Quality",
 		"customCakes": "Custom Cakes",
@@ -44,6 +45,9 @@
 		"title": "Welcome to Our Bakery",
 		"subTitle": "Where Every Cake Tells a Story...",
 		"orderNow": "Order now"
+	},
+	"trendy": {
+		"trendy-cake": "Trending Cake Gallery "
 	},
 	"copyright": "Copyright"
 }
