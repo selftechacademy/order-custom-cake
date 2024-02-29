@@ -43,7 +43,7 @@ const IconsBakes = () => {
 	return (
 		<div className="icons-container">
 			<div className="topic-container">
-				<h2 className="topic-text">Why is ChicagoBakes the right choice?</h2>
+				<h2 className="topic-text">{t("iconWithText.title")}</h2>
 			</div>
 			<div className="icons-box">
 				{icons.map((el, index) => (

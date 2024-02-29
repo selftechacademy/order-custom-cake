@@ -17,14 +17,8 @@
 		"update": "İlham, pazarlama promosyonları ve güncellemeleri e-posta yoluyla almak istiyorum.",
 		"account": "Zaten hesabınız var mı? Oturum aç"
 	},
-	"navbar": {
-		"home": "Ana Sayfa",
-		"about": "Hakkında",
-		"contact": "İletişim",
-		"login": "Giriş Yap",
-		"logout": "Çıkış Yap"
-	},
 	"iconWithText": {
+		"title": "ChicagoBakes neden doğru seçim?",
 		"everydayCooking": "Her Gün Yemek Pişirme",
 		"quality": "Kalite",
 		"customCakes": "Özel Pasta",
@@ -44,10 +38,7 @@
 		"title": "Fırınımıza Hoş Geldiniz",
 		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
 		"orderNow": "Sipariş"
-	},
-
-
-	
+	},	
 		"order-works": {
 		  "howWorks": "Nasıl çalışır?",
 		  "take-order": "Siparişinizi Alıyoruz",
@@ -58,5 +49,8 @@
 		  "delivery-text": "Pastalarınızı Teslim Ediyoruz",
 		  "custom-cake":"Özel kek"
 	  },
+	"trendy": {
+		"trendy-cake": "Kek galerisi"
+	},
 	"copyright": "Tüm hakları saklıdır."
 }
