@@ -5,6 +5,7 @@ import IconsBakes from "../../components/iconsBakes/IconBakes";
 import HeroSection from "../../components/heroSection/HeroSection";
 import imgSrc from "../../assets/images/hero-image.jpg";
 import SliderImages from "../../components/sliderImages/SliderImages";
+import ProfileTab from "../../components/profileTab/ProfileTab";
 
 export default function HomePage() {
 	const onClickHandler = () => alert("hello");
@@ -12,6 +13,7 @@ export default function HomePage() {
 	return (
 		<div>
 			<Navbar />
+			<ProfileTab />
 			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
 			<IconsBakes />
 			<SliderImages />
