@@ -8,8 +8,8 @@ import ProtectedRoute from "./components/protectedRoute/ProtectedRoute";
 import {
 	HomePage,
 	OrderPage,
-	DashboardPage,
 	LoginPage,
+	DashboardPage,
 	SignupPage,
 } from "./pages";
 
@@ -20,22 +20,6 @@ function App() {
 
 	return (
 		<div className="App">
-			<LanguageSwitcher />
-			<header className="App-header">
-				<p>{/* <Trans i18nKey="description.part1">{"App.js"}</Trans> */}</p>
-				<Trans i18nKey="description.part1">
-					Hello {{ name: "galileo" }} you have unread message.
-				</Trans>
-				<p>{t("description.part1")}</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("description.part2")}
-				</a>
-			</header>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/login" element={<LoginPage />} />
