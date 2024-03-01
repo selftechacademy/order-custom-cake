@@ -39,6 +39,29 @@
 		"subTitle": "Где каждый кусочек рассказывает свою историю...",
 		"orderNow": "Заказать"
 	},
+
+	"footer": {
+		"location": "Найти нас",
+		"address": "1114 N Arlington Heights Rd Ste 202, Arlington Heights, IL 60004",
+		"phoneNumber": "Позвонить",
+		"mail": "Написать нам",
+		"communication": "Подписаться",
+		"links": "Полезные ссылки",
+		"home": "Главная",
+		"services": "Услуги",
+		"menu": "Меню",
+		"about": "О нас",
+		"review": "Отзывы",
+		"contact": "Связаться с нами",
+		"action": "Чего ждете?",
+		"button": "Заказать сейчас",
+		"copyright": " Все права защищены 2024",
+		"homeLink": "Главная",
+		"terms": "Условия",
+		"privacy": "Конфиденциальность",
+		"policy": "Политика",
+		"phone": "Контакт"
+	}
 	"order-works": {
 		"howWorks": "Как это работает?",
 		"take-order": "Принимаем заказы",
