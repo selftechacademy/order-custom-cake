@@ -46,8 +46,45 @@
 		"subTitle": "Where Every Cake Tells a Story...",
 		"orderNow": "Order now"
 	},
+		"order-works": {
+		  "howWorks": "How it works?",
+		  "take-order": "We Take your Order",
+		  "choose-cake": "Select or Customize Your Cake",
+		  "bake": "Baking Your Cake",
+		  "bake-text": "We Bake Your Cake Fresh",
+		  "delivery": "Delivery or Pick up",
+		  "delivery-text": "We Deliver Your Cakes",
+		  "custom-cake":"Custom Cake"
+		},
 	"trendy": {
 		"trendy-cake": "Trending Cake Gallery "
 	},
+	"testimonials": {
+		"name1": "Aida",
+		"title1": "Software Engineer",
+		"company1": "at Adobe Inc.",
+		"quote1": "Chicago-Bakery never fails to impress with their delectable cakes! From classic flavors like chocolate and vanilla to innovative creations, every bite is a delight. Their cakes are always fresh, moist, and bursting with flavor. I highly recommend Chicago-Bakery for any occasion!",
+
+		"name2": "Aigerim",
+		"title2": "React Developer",
+		"company2": "at Netflix Inc.",
+		"quote2": "I recently ordered a cake from Chicago-Bakery for my daughter's birthday, and it was a huge hit! Not only was the design stunning, but the taste was out of this world. The moist layers, creamy frosting, and perfect balance of sweetness made it a memorable experience for everyone. Thank you, Chicago-Bakery, for making our celebration extra special!",
+
+		"name3": "Doolot",
+		"title3": "Lowcode Developer",
+		"company3": "at Meta Platforms Inc.",
+		"quote3": "Chicago-Bakery has become my go-to place for all things sweet! Their cakes are simply irresistible. Whether it's a simple afternoon treat or a grand celebration, their cakes never disappoint. Each slice is a heavenly indulgence, and I can't get enough of them. Chicago-Bakery definitely knows how to satisfy a sweet tooth!",
+
+		"name4": "Erkinai",
+		"title4": "Frontend Developer",
+		"company4": "at Ulta Beauty Inc.",
+		"quote4": "As a frequent customer of Chicago-Bakery, I can confidently say that they are the best in town! Their cakes are baked to perfection every time, with attention to detail and quality ingredients. Whether it's a birthday, wedding, or just a craving for something sweet, Chicago-Bakery has got you covered. I wouldn't trust anyone else with my cake needs!"
+	},
 	"copyright": "Copyright"
 }
+
+
+
+
+
+
