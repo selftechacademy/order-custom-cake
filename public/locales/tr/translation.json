@@ -8,9 +8,17 @@
 		"lastName": "Soyad",
 		"email": "E-posta",
 		"password": "Parola",
-		"submit": "Gönder"
+		"submit": "Gönder",
+		"signin": "Kayıt Olmak",
+		"signup": "Üye olmak",
+		"rememberMe": "Beni hatırla",
+		"forgotPassword": "Parolanızı mı unuttunuz?",
+		"dontHaveAccount": "Hesabınız yok mu? Üye olmak",
+		"update": "İlham, pazarlama promosyonları ve güncellemeleri e-posta yoluyla almak istiyorum.",
+		"account": "Zaten hesabınız var mı? Oturum aç"
 	},
 	"iconWithText": {
+		"title": "ChicagoBakes neden doğru seçim?",
 		"everydayCooking": "Her Gün Yemek Pişirme",
 		"quality": "Kalite",
 		"customCakes": "Özel Pasta",
@@ -30,6 +38,19 @@
 		"title": "Fırınımıza Hoş Geldiniz",
 		"subTitle": "Her Pastanın Bir Hikaye Anlattığı Yer...",
 		"orderNow": "Sipariş"
+	},	
+		"order-works": {
+		  "howWorks": "Nasıl çalışır?",
+		  "take-order": "Siparişinizi Alıyoruz",
+		  "choose-cake": "Pastanızı Seçin veya kişiselleştirin",
+		  "bake": "Pastanızı Yapıyoruz",
+		  "bake-text": "Pastanızı Taze Pişiriyoruz",
+		  "delivery": "Teslimat/Teslim Alma",
+		  "delivery-text": "Pastalarınızı Teslim Ediyoruz",
+		  "custom-cake":"Özel kek"
+	  },
+	"trendy": {
+		"trendy-cake": "Kek galerisi"
 	},
 	"testimonials": {
 		"name1": "Aida",

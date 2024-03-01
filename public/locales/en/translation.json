@@ -13,9 +13,19 @@
 		"submit": "Submit",
 		"rememberMe": "Remember Me",
 		"forgotPassword": "Forgot Password?",
-		"dontHaveAccount": "Don't have an account? Sign Up"
+		"dontHaveAccount": "Don't have an account? Sign Up",
+		"update": "I want to receive inspiration, marketing promotions and updates via email.",
+		"account": "Already have an account? Sign in"
+	},
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"login": "Login",
+		"logout": "Logout"
 	},
 	"iconWithText": {
+		"title": "Why is ChicagoBakes the right choice?",
 		"everydayCooking": "Everyday Cooking",
 		"quality": "Quality",
 		"customCakes": "Custom Cakes",
@@ -36,8 +46,20 @@
 		"subTitle": "Where Every Cake Tells a Story...",
 		"orderNow": "Order now"
 	},
+		"order-works": {
+		  "howWorks": "How it works?",
+		  "take-order": "We Take your Order",
+		  "choose-cake": "Select or Customize Your Cake",
+		  "bake": "Baking Your Cake",
+		  "bake-text": "We Bake Your Cake Fresh",
+		  "delivery": "Delivery or Pick up",
+		  "delivery-text": "We Deliver Your Cakes",
+		  "custom-cake":"Custom Cake"
+		},
+	"trendy": {
+		"trendy-cake": "Trending Cake Gallery "
+	},
 	"testimonials": {
-		
 		"name1": "Aida",
 		"title1": "Software Engineer",
 		"company1": "at Adobe Inc.",
@@ -60,3 +82,9 @@
 	},
 	"copyright": "Copyright"
 }
+
+
+
+
+
+
