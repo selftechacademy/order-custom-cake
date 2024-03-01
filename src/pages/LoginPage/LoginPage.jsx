@@ -16,6 +16,7 @@ import { Link as RouterLink } from "react-router-dom";
 import Copyright from "../../components/copyRight/Copyright";
 import { useTranslation } from "react-i18next";
 
+
 export default function LoginPage() {
 	const { t } = useTranslation();
 	const handleSubmit = (event) => {

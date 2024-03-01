@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import "./orderSteps.style.scss";
+import "./stepContainer.style.scss";
 import { useTranslation } from "react-i18next";
 
 const OrderSteps = ({
@@ -54,7 +54,6 @@ const First = {
 		number: "1",
 		numberStyle: { fontSize: "30px", color: "gray", fontWeight: "bold" },
 		imgWidth: "200px",
-		
 	},
 };
 const Second = {
@@ -75,7 +74,6 @@ const Third = {
 		number: 3,
 		numberStyle: { fontSize: "30px", color: "gray", fontWeight: "bold" },
 		imgWidth: "200px",
-	
 	},
 };
 
