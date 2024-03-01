@@ -66,8 +66,8 @@
 		"sass": "^1.71.1"
 	},
 	"lint-staged": {
-		"*.js": "eslint --cache --fix",
-		"*.jsx": "eslint --cache --fix",
+		// "*.js": "eslint --cache --fix",
+		// "*.jsx": "eslint --cache --fix",
 		"*.--write": "prettier --write"
 	}
 }

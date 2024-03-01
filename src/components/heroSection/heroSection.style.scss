@@ -61,15 +61,6 @@
             0 6px 16px 0 rgba(0, 0, 0, 0.19);
         font-weight: bold;
     }
-
-    /*&__button:hover {
-        background-color: #E3302D;
-        color: white;
-        transition-duration: 0.4s;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3),
-            0 6px 20px 0 rgba(0, 0, 0, 0.29);
-    }*/
-
     &__button:active {
         background-color: #dd2f2c;
         box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2),

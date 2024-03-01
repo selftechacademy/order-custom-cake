@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.navbar {
+	width: 100%;
+	padding: 5px 10px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid grey;
+
+	&__logo {
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			transform: scale(1.1);
+		}
+		&_primary {
+			width: 200px;
+		}
+		&_secondary {
+			width: 130px;
+			margin-bottom: 10px;
+		}
+	}
+
+	&__nav {
+		width: 60%;
+		display: flex;
+		gap: 10px;
+		justify-content: end;
+		align-items: center;
+		&__ul {
+			display: flex;
+			align-items: center;
+			gap: 25px;
+			@media screen and (max-width: 650px) {
+				display: none;
+			}
+			&__li {
+				color: #626b74;
+				list-style-type: none;
+				transition: all 0.2s ease-in-out;
+				&:hover {
+					transform: scale(1.1);
+				}
+				&:after {
+					background: none repeat scroll 0 0 transparent;
+					bottom: 0;
+					content: "";
+					display: block;
+					height: 2px;
+					left: 50%;
+					position: absolute;
+					background: #626b74;
+					transition:
+						width 0.3s ease 0s,
+						left 0.3s ease 0s;
+					width: 0;
+				}
+				&:hover:after {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+		&__cart-btn {
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+		&__menu-btn {
+			display: none;
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+			}
+
+			@media screen and (max-width: 650px) {
+				display: inline !important;
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+}
+
+// Mobile Responsive Navbar
+.mobile-navbar {
+	padding: 10px 0;
+	width: 100%;
+	position: absolute;
+	top: 50px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__ul {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+
+		&__li {
+			position: relative;
+			color: #626b74;
+			list-style: none;
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+			}
+			&:after {
+				background: none repeat scroll 0 0 transparent;
+				bottom: 0;
+				content: "";
+				display: block;
+				height: 2px;
+				left: 50%;
+				position: absolute;
+				background: #626b74;
+				transition:
+					width 0.3s ease 0s,
+					left 0.3s ease 0s;
+				width: 0;
+			}
+			&:hover:after {
+				width: 100%;
+				left: 0;
+			}
+		}
+	}
+}
+
+#login {
+	padding: 0 10px;
+	border-radius: 8px;
+	color: #1b76cf;
+	border: 2px solid #1b76cf;
+	&:hover {
+		background-color: #1b76cf;
+		color: #ffffff;
+	}
+}

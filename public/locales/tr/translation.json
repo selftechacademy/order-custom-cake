@@ -8,7 +8,21 @@
 		"lastName": "Soyad",
 		"email": "E-posta",
 		"password": "Parola",
-		"submit": "Gönder"
+		"submit": "Gönder",
+		"signin": "Kayıt Olmak",
+		"signup": "Üye olmak",
+		"rememberMe": "Beni hatırla",
+		"forgotPassword": "Parolanızı mı unuttunuz?",
+		"dontHaveAccount": "Hesabınız yok mu? Üye olmak",
+		"update": "İlham, pazarlama promosyonları ve güncellemeleri e-posta yoluyla almak istiyorum.",
+		"account": "Zaten hesabınız var mı? Oturum aç"
+	},
+	"navbar": {
+		"home": "Ana Sayfa",
+		"about": "Hakkında",
+		"contact": "İletişim",
+		"login": "Giriş Yap",
+		"logout": "Çıkış Yap"
 	},
 	"iconWithText": {
 		"everydayCooking": "Her Gün Yemek Pişirme",

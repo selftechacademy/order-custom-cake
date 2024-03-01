@@ -13,28 +13,13 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { Link as RouterLink } from "react-router-dom";
-
-function Copyright(props) {
-	return (
-		<Typography
-			variant="body2"
-			color="text.secondary"
-			align="center"
-			{...props}
-		>
-			{"Copyright © "}
-			<Link color="inherit" href="https://mui.com/">
-				Chicagobakes
-			</Link>{" "}
-			{new Date().getFullYear()}
-			{"."}
-		</Typography>
-	);
-}
+import Copyright from "../../components/copyRight/Copyright";
+import { useTranslation } from "react-i18next";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
 export default function SignUpPage() {
+	const { t } = useTranslation();
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		const data = new FormData(event.currentTarget);
@@ -59,7 +44,7 @@ export default function SignUpPage() {
 					<LockOutlinedIcon />
 				</Avatar>
 				<Typography component="h1" variant="h5">
-					Sign up
+					{t("form.signup")}
 				</Typography>
 				<Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
 					<Grid container spacing={2}>
@@ -70,7 +55,7 @@ export default function SignUpPage() {
 								required
 								fullWidth
 								id="firstName"
-								label="First Name"
+								label={t("form.firstName")}
 								autoFocus
 							/>
 						</Grid>
@@ -79,7 +64,7 @@ export default function SignUpPage() {
 								required
 								fullWidth
 								id="lastName"
-								label="Last Name"
+								label={t("form.lastName")}
 								name="lastName"
 								autoComplete="family-name"
 							/>
@@ -89,7 +74,7 @@ export default function SignUpPage() {
 								required
 								fullWidth
 								id="email"
-								label="Email Address"
+								label={t("form.email")}
 								name="email"
 								autoComplete="email"
 							/>
@@ -99,7 +84,7 @@ export default function SignUpPage() {
 								required
 								fullWidth
 								name="password"
-								label="Password"
+								label={t("form.password")}
 								type="password"
 								id="password"
 								autoComplete="new-password"
@@ -108,7 +93,7 @@ export default function SignUpPage() {
 						<Grid item xs={12}>
 							<FormControlLabel
 								control={<Checkbox value="allowExtraEmails" color="primary" />}
-								label="I want to receive inspiration, marketing promotions and updates via email."
+								label={t("form.update")}
 							/>
 						</Grid>
 					</Grid>
@@ -118,13 +103,13 @@ export default function SignUpPage() {
 						variant="contained"
 						sx={{ mt: 3, mb: 2 }}
 					>
-						Sign Up
+						{t("form.signup")}
 					</Button>
 					<Grid container justifyContent="flex-end">
 						<Grid item>
 							<RouterLink to="/login">
 								<Link href="#" variant="body2">
-									Already have an account? Sign in
+									{t("form.account")}
 								</Link>
 							</RouterLink>
 						</Grid>
