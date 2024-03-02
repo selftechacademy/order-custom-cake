@@ -1,68 +1,72 @@
 .review-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1000px;
-    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
-    transition: 0.3s;
-    background-color: #f8f9fa;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px auto;
+	width: 90%;
+	max-width: 1000px;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+	background-color: #f8f9fa;
+	text-align: center;
+	@media (max-width: 600px) {
+		padding: 0 0 10px 0;
+		margin: 0;
+		min-width: 100%;
+		text-align: center;
+	}
+	video {
+		width: 100%;
+		height: auto;
+		border-radius: 5px;
+	}
 
-    video {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
+	h3,
+	h4 {
+		margin: 10px 0;
+	}
 
-    h3, h4 {
-        margin: 10px 0;
-    }
+	h3 {
+		color: #9670c1;
+		font-size: 1.5rem;
+	}
 
-    h3 {
-        color: #9670c1;
-        font-size: 1.5rem;
-    }
+	h4 {
+		color: #333;
+		font-size: 1.2rem;
+	}
 
-    h4 {
-        color: #333;
-        font-size: 1.2rem;
-    }
+	p {
+		font-size: 1.5rem;
+		color: #666;
+	}
 
-    p {
-        font-size: 1.5rem;
-        color: #666;
-    }
+	&__content {
+		&__quote {
+			font-size: 3rem;
+			color: #9670c1;
+			border: none;
+			margin-bottom: 20px;
+		}
+	}
 
-    &__content {
-        &__quote {
-            font-size: 3rem;
-            color: #9670c1;
-            border: none;
-            margin-bottom: 20px;
-        }
-    }
+	@media (min-width: 768px) {
+		flex-direction: row;
+		justify-content: space-between;
 
-    
+		video {
+			width: 45%;
+		}
 
-    @media (min-width: 768px) {
-        flex-direction: row;
-        justify-content: space-between;
+		&__content {
+			width: 45%;
 
-        video {
-            width: 45%;
-        }
-
-        &__content {
-            width: 45%;
-
-            &__quote {
-                font-size: 5rem;
-            }
-        }
-    }
+			&__quote {
+				font-size: 5rem;
+			}
+		}
+	}
 }
