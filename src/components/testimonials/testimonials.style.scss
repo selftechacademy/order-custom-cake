@@ -7,8 +7,9 @@
 	flex-direction: column;
 	justify-content: center;
 	@media (max-width: 600px) {
-		padding: 0;
+		padding: 30px 15px;
 		height: auto;
+		font-size: 2rem;
 	}
 
 	h1 {
