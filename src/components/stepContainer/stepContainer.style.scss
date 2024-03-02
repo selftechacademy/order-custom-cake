@@ -1,43 +1,37 @@
 .step__container {
-	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	padding: 50px;
 	// height: 100vh;
 	margin: 10px;
-	border-radius: 20px;
+	// border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	@media only screen and (max-width: 375px) {
 		margin-top: 20px;
 	}
 	@media only screen and (max-width: 360px) {
-	
 		margin-top: 20px;
 		margin-bottom: 20px;
 		box-shadow: none;
-	
 	}
 	@media only screen and (max-width: 390px) {
-	
 		margin-top: 20px;
 		margin-bottom: 20px;
 		box-shadow: none;
-	
 	}
 	@media only screen and (max-width: 375px) {
-	
 		margin-top: 20px;
 		margin-bottom: 20px;
 		box-shadow: none;
-	
 	}
 	@media only screen and (max-width: 430px) {
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
 	@media only screen and (max-width: 1280px) {
-		 height: 100vh;
+		// height: 100vh;
 	}
 	&__title {
 		font-size: 40px;
@@ -66,7 +60,6 @@
 		@media only screen and (max-width: 1280px) {
 			margin-top: 20px;
 		}
-
 	}
 
 	&__wrapper {
@@ -119,7 +112,6 @@
 		}
 		// h1 {
 		// 	// margin-bottom: 120px;
-		
 
 		// 	// @media only screen and (max-width: 430px) {
 		// 	// 	// font-size: 25px;
@@ -173,21 +165,19 @@
 			align-items: first baseline;
 			justify-content: space-around;
 			gap: 5px;
-			width: 450px;
+			// width: 450px;
 		}
 		@media only screen and (max-width: 320px) {
 			gap: 0.01rem;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-		
 		}
 		@media only screen and (max-width: 360px) {
 			gap: 0.01rem;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-		
 		}
 		@media only screen and (max-width: 390px) {
 			gap: 0;
@@ -257,7 +247,7 @@
 			font-size: 18px;
 		}
 		@media only screen and (max-width: 390px) {
-			margin-left:-20px ;
+			margin-left: -20px;
 		}
 	}
 }
@@ -319,16 +309,11 @@
 	}
 
 	@media only screen and (max-width: 390px) {
-	margin-left:-20px;
-
-	
+		margin-left: -20px;
 	}
 	@media only screen and (max-width: 375px) {
-	
 		margin-left: 0;
-	
 	}
-	
 }
 .img-steps {
 	@media only screen and (max-width: 320px) {
