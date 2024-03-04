@@ -14,25 +14,25 @@ const ProfileTab = () => {
 	const [isEditable, setIsEditable] = useState(false);
 	const [profilePic, setProfilePic] = useState("/path/to/profile/picture.jpg");
 
-	const handleProfilePicChange = (e) => {
-		if (e.target.files[0]) {
-			setProfilePic(URL.createObjectURL(e.target.files[0]));
-		}
-	};
+	// const handleProfilePicChange = (e) => {
+	// 	if (e.target.files[0]) {
+	// 		setProfilePic(URL.createObjectURL(e.target.files[0]));
+	// 	}
+	// };
 
-	const clearInfo = () => {
-		setFullName("");
-		setPhoneNumber("");
-		setEmail("");
-		setDateOfBirth("");
-		setInstagram("");
-		setPassword("");
-		setProfilePic("/path/to/profile/picture.jpg");
+	const deleteAccount = () => {
+		// setFullName("");
+		// setPhoneNumber("");
+		// setEmail("");
+		// setDateOfBirth("");
+		// setInstagram("");
+		// setPassword("");
+		// setProfilePic("/path/to/profile/picture.jpg");
 	};
 
 	const popupAlert = () => {
-		if (window.confirm("Are you sure you want to clear all the info?")) {
-			clearInfo();
+		if (window.confirm("Are you sure you want to delete your account?")) {
+			// deleteAccount();
 		}
 	};
 
@@ -47,7 +47,7 @@ const ProfileTab = () => {
 			}}
 		>
 			<Avatar alt="Profile Picture" src={profilePic}>
-				<input accept="image/*" type="file" onChange={handleProfilePicChange} />
+				{/* <input accept="image/*" type="file" onChange={handleProfilePicChange} /> */}
 			</Avatar>
 			<TextField
 				label="Full Name"
@@ -96,14 +96,14 @@ const ProfileTab = () => {
 			/>
 			<Box sx={{ display: "flex", gap: 1 }}>
 				<Button variant="outlined" color="secondary" onClick={popupAlert}>
-					Clear Info
+					Delete Account
 				</Button>
 				<Button
 					variant="contained"
 					color="primary"
 					onClick={() => setIsEditable(!isEditable)}
 				>
-					{isEditable ? "Save" : "Edit"}
+					{isEditable ? "Save" : "Edit Profile"}
 				</Button>
 			</Box>
 		</Container>
