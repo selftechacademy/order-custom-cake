@@ -1,21 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .testimonials {
-    background-color: #9670c1;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	background-color: #9670c1;
+	height: 90vh;
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	@media (max-width: 600px) {
+		padding: 30px 15px;
+		height: auto;
+		font-size: 2rem;
+	}
 
-    h1 {
-        text-align: center;
-        font-size: 2.5rem;
-        color: #fff;
+	h1 {
+		text-align: center;
+		font-size: 2.5rem;
+		color: #fff;
+	}
 
-    }
+	.swiper-button-prev,
+	.swiper-button-next {
+		color: #fff;
+		@media (max-width: 600px) {
+			display: none;
+		}
+	}
 }
-

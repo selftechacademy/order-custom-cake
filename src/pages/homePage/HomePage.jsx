@@ -19,10 +19,9 @@ export default function HomePage() {
 			<ProfileTab />
 			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
 			<IconsBakes />
-			<StepsContainer />
-
 			<Testimonials />
-			<SliderImages />
+			<StepsContainer />
+			{/* <SliderImages /> */}
 			<Footer />
 		</div>
 	);
