@@ -16,7 +16,7 @@ export default function HomePage() {
 	return (
 		<div>
 			<Navbar />
-			<ProfileTab />
+			{/* <ProfileTab /> */}
 			<HeroSection imgSrc={imgSrc} onClickHandler={onClickHandler} />
 			<IconsBakes />
 			<Testimonials />
