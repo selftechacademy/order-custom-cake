@@ -67,7 +67,7 @@
 						left 0.3s ease 0s;
 					width: 0;
 				}
-				&:hover:after {
+				&:not(:last-child):hover:after {
 					width: 100%;
 					left: 0;
 				}
@@ -128,7 +128,7 @@
 					left 0.3s ease 0s;
 				width: 0;
 			}
-			&:hover:after {
+			&:not(:last-child):hover:after {
 				width: 100%;
 				left: 0;
 			}
