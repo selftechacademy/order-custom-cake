@@ -31,13 +31,6 @@
 		&:hover {
 			transform: scale(1.1);
 		}
-		&_primary {
-			width: 200px;
-		}
-		&_secondary {
-			width: 130px;
-			margin-bottom: 10px;
-		}
 	}
 
 	&__nav {
@@ -106,10 +99,8 @@
 .mobile-navbar {
 	padding: 10px 10px;
 	width: 100%;
-	// position: absolute;
-	// top: 50px;
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	&__ul {
 		display: flex;
 		gap: 1rem;
