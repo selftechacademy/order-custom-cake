@@ -34,6 +34,7 @@ const Navbar = () => {
 					alt="Chicago Bakes"
 					width={"50px"}
 				/>
+
 				{/* desktop navbar, when it shrinks unordered list disappears */}
 				<div className="navbar__nav">
 					<ul className="navbar__nav__ul">
@@ -58,6 +59,7 @@ const Navbar = () => {
 						{isOpen ? <CloseOutlined /> : <MenuOutlined />}
 					</IconButton>
 				</div>
+
 				{/* mobile navbar, appears when user clicks menu button */}
 				{isOpen ? (
 					<div className="mobile-navbar">

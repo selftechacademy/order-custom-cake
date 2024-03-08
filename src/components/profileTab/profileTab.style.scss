@@ -1,0 +1,16 @@
+.MuiContainer-root {
+	@media screen and (max-width: 600px) {
+		width: 100% !important;
+	}
+	.MuiTextField-root {
+		width: 80%;
+		height: 3rem;
+	}
+	.MuiPaper-root {
+		.MuiAvatar-root {
+			width: 150px;
+			height: 150px;
+			margin: 20px;
+		}
+	}
+}
